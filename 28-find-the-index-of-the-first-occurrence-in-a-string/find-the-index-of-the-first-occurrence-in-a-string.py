@@ -1,9 +1,4 @@
-class Solution(object):
-    def strStr(self, haystack, needle):
-        """
-        :type haystack: str
-        :type needle: str
-        :rtype: int
-        """
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
         n=haystack.find(needle)
         return n
